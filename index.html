@@ -11,6 +11,90 @@
     />
 </head>
 <body>
-    
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                 <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="form">
+        <form>
+            <h2 class="mb-3">Registration Form</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Enter your last name" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password" />
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </form>
+    </div>
+    <h2 class="mb-3">User Information</h2>
+    <div class="fluid-container">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="img-fluid" />
+        <span class="rounded-circle"></span>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
